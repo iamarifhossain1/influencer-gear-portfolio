@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 150px;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav ul li img {
+    max-width: 25px;
+}
+
+.search, .cart {
+    width: 25px;
+    cursor: pointer;
+}
+
+.brand-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+.banner-sec {
+    margin: auto 150px;
+    margin-top: 100px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-heading {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.prebook-btn {
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.banner-sec img {
+    max-width: 450px;
+}
+
+.camera {
+    width: 440px;
+   background-image: url("images/Circle\ design.svg");
+}
+
+.brand-img {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+hr {
+    border: 1px solid silver;
+    width: 100%;
+}
