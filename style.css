@@ -101,3 +101,129 @@ hr {
     border: 1px solid silver;
     width: 100%;
 }
+
+.popular-sec {
+    margin: 100px auto;
+}
+
+.card-container {
+    margin: 50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.popular-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.popular-card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 2px 2px 40px silver;
+    padding: 17px 15px 0px 14px ;
+    border-radius: 5px;
+}
+
+.popular-img img {
+    width: 300px;
+}
+
+.card-heading {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.price {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.card-sub-heading {
+    color: #787885;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.see-btn {
+    margin-left: 1360px;
+    background-color: #fff;
+    color: #E02C6D;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-sec {
+    margin: 0px auto;
+    width: 1100px;
+}
+
+.product-container {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0A0826;
+}
+
+.product-description {
+    color: #6C6C6C;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.join-btn {
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin: 100px auto;
+    margin-bottom:0px;
+
+    text-align: center;
+    background-color: #0A0826;
+    padding: 50px;
+}
+
+.footer-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+
+
+.footer-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-img {
+
+    
+}
