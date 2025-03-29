@@ -16,7 +16,6 @@ nav {
 nav ul {
     display: flex;
     gap: 50px;
-    
     align-items: center;
 }
 
@@ -225,6 +224,85 @@ footer {
 }
 
 .footer-img {
-
     
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    nav ul {
+        flex-direction: column;
+
+    }   
+   
+    .brand-name {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .banner-sec {
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-heading {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .banner-description {
+        text-align: center;
+    }
+
+    .prebook-btn {
+        margin-left: 170px;
+    }
+
+    .brand-img {
+        flex-wrap: wrap;
+        margin-top: -20px;
+    }
+
+    .popular-sec {
+        margin-top: -50px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        margin-top: ;
+    }
+
+    .see-btn {
+        margin: 0px 190px;
+    }
+
+    .product-sec {
+        width: 100%;
+        margin-top: -40px;
+    }
+    .product-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .product-heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .product-description {
+        font-family: 15px;
+        text-align: center;
+    }
+
+    .join-btn {
+        margin-left: 170px;
+    }
 }
